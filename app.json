@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "ai-chatbot",
+    "name": "AI Chatbot - Ask me aything",
     "slug": "ai-chatbot",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#02145e"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.aichatbot.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ea2c64ee-a3a9-45ce-a1a9-ab318422e7cb"
+      }
     }
   }
 }
