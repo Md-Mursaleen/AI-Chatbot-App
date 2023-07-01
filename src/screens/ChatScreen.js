@@ -53,7 +53,7 @@ const ChatScreen = () => {
         }, {
             headers: {
                 "Content-Type": "application/json",
-                "Authorization": `Bearer ${"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"}`
+                "Authorization": `Bearer ${""}`
             }
         }).then((response) => {
             if (response.data.choices[0].text) {
